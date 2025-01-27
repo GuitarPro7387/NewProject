@@ -18,25 +18,23 @@
 }
 
 .container {
-  border: 2px solid red;
   width: 100%;
   height: 100%;
   max-width: 1775px;
   margin: auto;
   transition: 1.2s all;
-  overflow: hidden;
+
+  border: 2px solid red;
 }
 .header {
   width: 100%;
   max-width: 1777px;
   justify-content: space-between;
 }
-.img_hedaer_21{
+.img_hedaer_21 {
   position: relative;
   top: 0;
   left: 0;
-  /* width: 100%; */
-  /* height: 800px; */
   z-index: 1;
 }
 .img_1 {
@@ -44,9 +42,7 @@
   max-width: 1775px;
   height: 930px;
 }
-/* .container > img {
-  width: 100%;
-} */
+
 .nav {
   position: absolute;
   margin-top: -910px;
@@ -61,7 +57,7 @@
   transform: translateX(100px);
   z-index: 2;
 }
-.none_ikon{
+.none_ikon {
   padding-right: 22.67px;
 }
 .img_header {
@@ -172,7 +168,6 @@
   gap: 27px;
   margin-right: 30%;
   margin-bottom: 40px;
-  border: 2px solid red;
 }
 .header_button {
   width: 100%;
@@ -273,7 +268,6 @@
 }
 .section1_img > .imgdes {
   display: none;
-
 }
 .nav_button_nev {
   transform: translateY(40px);
@@ -353,7 +347,6 @@
 }
 .section3_img > img {
   width: 100%;
-  /* max-width: ; */
 }
 .section3_text {
   width: 544px;
@@ -431,8 +424,7 @@ input {
   border: 1px solid var(--blue80);
   transition: all 1.2s;
 }
-.section4mobil{
-
+.section4mobil {
   display: none;
 }
 
@@ -502,7 +494,6 @@ input {
   max-width: 1439px;
   height: 932px;
   margin: auto;
-  /* padding-top: 200px; */
 }
 .section5_testemonials > h1 {
   font-family: var(--roboto);
@@ -585,10 +576,11 @@ input {
   transition: all 1.2s;
 }
 .section6 {
+  text-align: center;
+  justify-content: space-between;
   background-color: var(--text_dark_blue);
   width: 100%;
   max-width: 1775px;
-  height: 1115px;
   margin-bottom: 210px;
 }
 .section6 > h1 {
@@ -620,7 +612,6 @@ input {
   width: 100%;
   max-width: 335px;
   height: 607px;
-  border: 2px solid red;
   background-color: var(--white);
   margin-top: 43px;
   border-radius: 10px;
@@ -951,7 +942,6 @@ footer {
 .footer_box_paragraph {
   display: flex;
   justify-content: space-around;
-  /* gap: 10px; */
 }
 .footer_box_text > p {
   font-family: var(--roboto);
@@ -1014,5 +1004,3 @@ footer {
 .logo_nav_fuul > svg {
   display: none;
 }
-
-
