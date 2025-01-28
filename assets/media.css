@@ -31,11 +31,9 @@
 
 @media screen and (max-width: 1390px) {
   .img_hedaer_21 > img {
-    width: 1390px;
+    max-width: 1390px;
   }
-  .container {
-    width: 1390px;
-  }
+
 }
 
 @media screen and (max-width: 790px) {
