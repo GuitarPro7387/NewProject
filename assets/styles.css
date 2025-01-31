@@ -206,7 +206,6 @@
 .section1 {
   width: 100%;
   max-width: 1777px;
-  border: 2px solid green;
 }
 .section1_header {
   padding-bottom: 90px;
@@ -423,7 +422,7 @@
 }
 .section3_text_buttons {
   display: flex;
-  gap: 2px;
+  gap: 40px;
 }
 input {
   width: 100%;
@@ -524,6 +523,7 @@ input {
 .section5 {
   max-width: 1439px;
   margin: auto;
+  padding-bottom: 100px;
 }
 .section5_testemonials > h1 {
   font-family: var(--roboto);
