@@ -1,0 +1,51 @@
+@media screen and (max-width: 1240px) {
+  .nav_a {
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .nav_a {
+    display: none;
+  }
+  .logo_nav {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .nav_text > h1 {
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .nav_text > .h1 {
+    display: none;
+  }
+  .nav_text > .nav_text_start {
+    display: block;
+    font-family: var(--graphik);
+    font-weight: 400;
+    font-style: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+  }
+  .nav_text {
+    max-width: 433px;
+    padding-top: 50px;
+  }
+  .ikon_nav > img {
+    display: none;
+    border: 2px solid red;
+
+  }
+ .none_ikon{
+    display: block;
+    margin: auto;
+    padding-right: 25px;
+ }
+ .nav_text > p > span{
+    display: none;
+ }
+ .pspan{
+    display: none;
+ }
+
+}
