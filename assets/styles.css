@@ -207,6 +207,7 @@
   width: 100%;
   max-width: 1777px;
   margin-top: 115px;
+  padding-top: 250px;
 }
 
 .section1_header {
@@ -245,6 +246,7 @@
   display: flex;
   justify-content: space-between;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 .header_section {
@@ -276,7 +278,10 @@
   margin: auto;
   margin-top: 20px;
 }
-
+.section1{
+  /* border: 2px solid red; */
+  margin-top: -100px;
+}
 .header_section_svg {
   width: 45.7px;
   height: 45.7px;
@@ -319,6 +324,7 @@
   gap: 50px;
   margin: auto;
   padding-bottom: 226px;
+  flex-wrap: wrap;
 }
 
 .section2_img {
@@ -367,7 +373,9 @@
   padding-top: 16px;
   padding-bottom: 16px;
   margin-top: 60px;
-  text-align: left;
+  text-align: center;
+  /* margin-left: 70px; */
+
 }
 
 .section2_button > button:hover {
@@ -388,9 +396,11 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-top: 115px;
+  text-align: center;
   gap: 9px;
+  flex-wrap: wrap;
+  padding-right: 20 0px;
+  
 }
 
 .section3_img {
@@ -405,7 +415,10 @@
 .section3_img > img {
   width: 100%;
 }
-
+.section3_text {
+  /* border: 2px solid red; */
+  /* padding-right: 200px; */
+}
 .section3_text_paragraph > h3 {
   font-family: var(--roboto);
   font-weight: 700;
@@ -447,7 +460,7 @@
 }
 
 .section3_text_buttons {
-  display: flex;
+  display: flex;  
 }
 
 input {
@@ -457,11 +470,23 @@ input {
   margin-top: 36px;
   border-radius: 39px;
   border: 1px solid #e8e8e8;
-  padding: 19px 39px;
+  padding: 19px 39px; 
   background-color: #f4f4f4;
 }
 
 .section3_text_buttons > button {
+  width: 100%;
+  max-width: 172px;
+  height: 58px;
+  border-radius: 35px;
+  padding: 19px 38px;
+  background-color: var(--blue80);
+  color: var(--white);
+  border: none;
+  margin-top: 34px;
+  margin-left: 17px;
+}
+.section3_buttonw > button{
   width: 100%;
   max-width: 172px;
   height: 58px;
@@ -518,19 +543,28 @@ input {
 }
 
 .section4_img {
+  display: flex;
   width: 100%;
   max-width: 1075px;
   height: 330px;
+  margin: auto;
+  padding-left: 150px;
   margin-top: 80px;
-  margin-left: 199px;
+  flex-wrap: wrap;
 }
 
 .section4_img > img {
   width: 100%;
-  height: 100%;
+  max-width: 273px;
+  height: 151px;
+  /* height: 100%; */
 }
-
+.section4_button {
+  text-align: center;
+}
 .section4_button > button {
+  width: 100%;
+  max-width: 236px;
   font-family: var(--roboto);
   font-weight: 700;
   border: none;
@@ -544,10 +578,9 @@ input {
   padding-right: 59.5px;
   padding-top: 16px;
   padding-bottom: 16px;
-  margin-top: 80px;
-  margin-left: 610px;
-  text-align: left;
-  margin-bottom: 80px;
+  /* margin-top: 80px; */
+  /* text-align: left; */
+  /* margin-bottom: 80px; */
 }
 
 .section4_button > button:hover {
@@ -722,6 +755,7 @@ input {
   gap: 50px;
   text-align: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .section6_box_money_nav > h3 {
@@ -893,6 +927,7 @@ input {
   width: 100%;
   max-width: 1440px;
   margin: auto;
+  /* flex-wrap: wrap; */
 }
 
 .section7_paragraph > h1 {
@@ -941,6 +976,7 @@ input {
   border-radius: 20px;
   margin-left: 90px;
   margin-bottom: 100px;
+  border: 1px solid #d8d8d8;
 }
 
 .section7_form > h3 {
@@ -971,8 +1007,9 @@ form {
 .email {
   display: block;
   width: 100%;
-  max-width: 273px;
+  max-width: 353px;
   height: 54px;
+  margin-left: 50px;
   background-color: #e8e8e8;
   border-radius: 39px;
 }
@@ -1073,9 +1110,18 @@ form {
 }
 
 .section7_ikon {
-  padding-top: 65px;
+  /* border: 2px solid red; */
+  width: 100%;
+  max-width: 190px;
+  height: 60px;
   display: flex;
   gap: 20px;
+}
+.section7_ikon > img {
+  width: 100%;
+  max-width: 33px;
+  height: 27px;
+  margin-top: 64px;
 }
 
 footer {
